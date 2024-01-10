@@ -1,18 +1,14 @@
 import React from 'react';
 
 import MyFoto from './components/MyImage';
-import Button from './components/Button';
+import Upmenu from './components/Upmenu';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-<div id="container-upmenu">
-      <div id="container-upmenu-buttons">
-      <Button>ABOUT ME</Button>
-      </div>
-    </div>
+    <Upmenu></Upmenu>
     <div id="container-profile">
       <div id="container-profile-img">
         <MyFoto></MyFoto>
@@ -29,7 +25,12 @@ function App() {
         </div>
       </div>
     </div>
-    <div id="container-aboutme"></div>
+    <div id="container-aboutme">
+    <span className="text1">ABOUT ME</span>
+    <div id="container-aboutme-text">Olá, meu nome é Hector Lopes, tenho 20 anos. Como quase todo desenvolvedor, me interessei por tecnologia logo cedo, especialmente pelos famosos jogos e computadores. Iniciei minha carreira na área cursando o ensino médio integrado ao técnico de informática, e posteriormente, ingressei na faculdade de Ciências da Computação. Consegui meu estágio e hoje sou desenvolvedor full stack de softwares.
+
+    </div>
+    </div>
     </div>
   );
 }

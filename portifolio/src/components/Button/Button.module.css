@@ -1,0 +1,12 @@
+.upmnenu-buttons {
+    background-color: transparent;
+    color: #ffff;
+    border: 0;
+    padding: 70px;
+    font-size: 18px;
+}
+
+
+.upmnenu-buttons:hover {
+    text-decoration: #0D99FF underline 4px;
+}
