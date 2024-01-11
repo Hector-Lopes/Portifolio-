@@ -22,48 +22,7 @@ body {
 
 
 
-#container-profile {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-bottom: 5px solid #333;
-}
 
-.img_foto {
-    width: 45vw;
-    border-radius: 40px;
-}
-
-#container-profile-img {
-    padding: 70px;
-}
-
-.text1 {
-    font-size: 60px;
-    text-decoration: #0D99FF underline solid 4px;
-    letter-spacing: 15px;
-    padding: 70px 70px 0px 70px;
-
-}
-
-.text2 {
-    font-size: 30px;
-    letter-spacing: 2.5px;
-    padding: 70px 70px 0px 70px;
-
-}
-
-.text4 {
-    padding: 70px 70px 0px 70px;
-    color: #0D99FF;
-}
-
-#container-profile-text-texts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 #container-aboutme {
     display: flex;
