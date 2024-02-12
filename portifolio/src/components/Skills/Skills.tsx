@@ -24,25 +24,20 @@ let SKILLS: SKILL[] =[
 
 ]
 
-const Skills = () =>{
+const Skills = () => {
+    const Skill = SKILLS.map((skill, index) => {
+        return (
+            <span key={index} className={styles['card_skill']}>{skill.NOME}</span>
+        );
+    });
 
-return(
-<ContainerBlue title='SKILLS'>
-<div id={styles['card_skills']}>
-    <span className={styles['card_skill']}>NodeJS</span>
-</div>
-</ContainerBlue>
-)
-    
-//  const Skill = SKILLS.map((skill, index)=>{
-
-//     return(
-        
-//     )
-//  })
-
-
-
-}
+    return (
+        <ContainerBlue title='SKILLS'>
+            <div id={styles['card_skills']}>
+                {Skill}
+            </div>
+        </ContainerBlue>
+    );
+};
 
 export default Skills
